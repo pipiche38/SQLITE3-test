@@ -7,6 +7,7 @@
 </plugin>
 """
 import Domoticz
+import sqlite3
 
 class BasePlugin:
     enabled = False
